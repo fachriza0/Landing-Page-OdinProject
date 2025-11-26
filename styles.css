@@ -174,4 +174,16 @@
     border-radius: 12px;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.footer-p{
+    justify-self: center;
+}
+
 /* End of Final Section */
