@@ -15,6 +15,7 @@
     font-family: 'Roboto', 'serif';
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .roboto2{
@@ -131,3 +132,46 @@
 }
 
 /* End of Quote */
+
+/* Final Section */
+
+.final{
+    height: 400px;
+    justify-items: center;
+    align-content: center;
+}
+
+.blue-container{
+    width: 70%;
+    height: 40%;
+    background-color: #3882F6;
+    border-radius: 18px;
+    align-content: center;
+    display: flex;
+}
+
+.blue-container-text{
+    width: 65%;
+    justify-items: center;
+    height: 30%;
+    align-self: center;
+}
+
+.blue-container-btn{
+    width: 20%;
+    height: 30%;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.blue-container-btn button{
+    border: 2px solid white;
+    background-color: #3882F6;
+    margin: auto;
+    padding: 12px;
+    width: 120px;
+    border-radius: 12px;
+}
+
+/* End of Final Section */
