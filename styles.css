@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'serif';
+}
+
+/* Fonts */
+.main-text{
+    font-family: 'Roboto', 'serif';
+    color: #e5e7eb;
+    font-size: 48px;
+}
+
+.roboto{
+    font-family: 'Roboto', 'serif';
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.roboto2{
+    font-family: 'Roboto', 'serif';
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.information{
+    font-family: 'Roboto', 'serif';
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote-text{
+    font-family: 'Roboto', 'serif';
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.right{
+    text-align: right;
+}
+/* end of fonts */
+
+
+/* Buttons */
+
+.btn-regular{
+    background-color: #3882F6;
+    font-family: 'Roboto', 'serif';
+    border: 0;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 16px;
+}
+
+/* End of Buttons */
+
+/* Home Page */
+
+.home{
+    background-color: #1F2937;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar .left{
+    margin-right: auto;
+}
+
+.home-desc{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.home-desc .cats{
+    width: 450px;
+    padding: 12px;
+}
+
+.home-desc-text{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    text-align: left;
+    padding: 12px;
+    gap: 20px;
+}
+
+/* End of Home */
+
+/* About Page */
+
+.about-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-desc img{
+    width: 600px;
+    padding: 20px;
+}
+
+/* End of About */
+
+/* Quote Section */
+
+.quote{
+    background-color: #e5e7eb;
+    height: 60vh;
+    position: relative;
+}
+
+.quote-div{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+/* End of Quote */
